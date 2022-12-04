@@ -3,7 +3,7 @@
 #include "operations.h"
 
 extern "C" {
-    __declspec(dllexport)  Operation* getOperation();
+    __declspec(dllexport)  Operation*defineOperation();
 }
 
 #endif  DLLPLUGIN_H
